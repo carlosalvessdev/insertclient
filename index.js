@@ -2,7 +2,7 @@
 // módulo express, criando servidor e rotas
 const express = require("express");
 const app = express();
-
+const teste = ""
 
 app.get('/', function (req, res){
     res.send('tela principal')
